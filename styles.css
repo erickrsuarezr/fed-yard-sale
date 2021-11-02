@@ -39,6 +39,7 @@ body{
     font-size: var(--lg);
     margin-block-end: 12px;
     text-align: center;
+    font-weight: bold;
 }
 
 .subtitle{
@@ -566,4 +567,15 @@ nav{
     .product-detail > img:nth-child(2){
         width: 100%;
     }
+}
+
+/*Carrito compras*/
+
+.title-container{
+    display: flex;
+}
+
+.title-container img{
+    transform: rotate(180deg);
+    margin-inline-end: 14px;
 }
